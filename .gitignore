@@ -1,0 +1,68 @@
+# Python related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.log
+*.env
+
+# Virtual environment
+venv/
+env/
+env.bak/
+venv.bak/
+
+# Docker
+*.dockerfile
+docker-compose.override.yml
+docker-compose.override.*
+docker-compose.yml
+.docker/
+docker/
+*.img
+*.tar
+*.tar.gz
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Model files (if too large for version control)
+*.pkl
+*.h5
+*.joblib
+
+# IDE/editor related
+.vscode/
+.idea/
+*.swp
+
+# Data files (e.g., raw data, temporary data, etc.)
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.json
+*.xml
+
+# Logs
+logs/
+
+# Testing related
+.coverage
+*.cover
+nosetests.xml
+pytest_cache/
+*.mocha
+*.junit.xml
+
+# Cloud-related files
+.env
+*.key
+
+# Miscellaneous
+*.bak
+*.tmp
+*.out
+*.pid
+*.log
